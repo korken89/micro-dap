@@ -86,8 +86,8 @@ Design available at: github.com/korken89/micro-bmp
 $Sheet
 S 4750 3650 700  500 
 U 5ABFD4E7
-F0 "bmp_core" 50
-F1 "bmp_core.sch" 50
+F0 "core" 50
+F1 "core.sch" 50
 F2 "5V" I R 5450 4050 50 
 F3 "DP" I R 5450 3950 50 
 F4 "DM" I R 5450 3850 50 

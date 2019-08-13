@@ -236,13 +236,13 @@ $EndComp
 $Comp
 L power:GND #PWR021
 U 1 1 5ABD708C
-P 4750 5850
-F 0 "#PWR021" H 4750 5600 50  0001 C CNN
-F 1 "GND" H 4755 5677 50  0000 C CNN
-F 2 "" H 4750 5850 50  0001 C CNN
-F 3 "" H 4750 5850 50  0001 C CNN
-	1    4750 5850
-	0    -1   -1   0   
+P 4250 6150
+F 0 "#PWR021" H 4250 5900 50  0001 C CNN
+F 1 "GND" H 4255 5977 50  0000 C CNN
+F 2 "" H 4250 6150 50  0001 C CNN
+F 3 "" H 4250 6150 50  0001 C CNN
+	1    4250 6150
+	0    1    1    0   
 $EndComp
 Wire Wire Line
 	2350 5650 2200 5650
@@ -407,8 +407,6 @@ Wire Wire Line
 	4250 5950 4050 5950
 Wire Wire Line
 	4050 6050 4250 6050
-Wire Wire Line
-	4250 6150 4050 6150
 Text Notes 7050 6850 0    79   ~ 0
 Note that this board is designed to work with the \nSTLink V2 version of Black Magic Probe firmware.
 Text Notes 7050 7050 0    79   ~ 0
@@ -719,11 +717,11 @@ F 3 "https://www.onsemi.cn/pub/Collateral/NUF6401-D.PDF" H 1950 4450 50  0001 C 
 $EndComp
 Text Label 2350 5550 0    50   ~ 0
 TGT_SWOo
-Text Label 4050 6150 2    50   ~ 0
-TGT_TXo
 Text Label 4050 6050 2    50   ~ 0
-TGT_RXo
+TGT_TXo
 Text Label 4050 5950 2    50   ~ 0
+TGT_RXo
+Text Label 5000 5850 0    50   ~ 0
 TGT_RSTo
 Text Label 5000 6050 0    50   ~ 0
 TGT_SWDIOo
@@ -776,4 +774,6 @@ F 3 "" H 6250 2300 50  0001 C CNN
 	1    6250 2300
 	0    -1   -1   0   
 $EndComp
+Wire Wire Line
+	4750 5850 5000 5850
 $EndSCHEMATC
