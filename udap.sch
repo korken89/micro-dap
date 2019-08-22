@@ -74,15 +74,15 @@ F 3 "~" H 10850 6850 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Text Notes 7350 7500 0    79   ~ 0
-µBMP
+µDAP
 Text Notes 8150 7650 0    67   ~ 0
 2018-11-18
 Text Notes 10600 7650 0    67   ~ 0
 1.3
 Text Notes 7100 6850 0    79   ~ 0
-Note that this board is designed to work with the \nSTLink V2 version of Black Magic Probe firmware.
+Note that this board is designed to work with the \ndap42 firmware (https://github.com/devanlai/dap42).
 Text Notes 7100 7050 0    79   ~ 0
-Design available at: github.com/korken89/micro-bmp
+Design available at: github.com/korken89/micro-dap
 $Sheet
 S 4750 3650 700  500 
 U 5ABFD4E7

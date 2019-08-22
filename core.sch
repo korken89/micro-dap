@@ -369,7 +369,7 @@ Wire Wire Line
 Text Label 5250 3700 0    50   ~ 0
 TGT_SWO
 Text Notes 7300 7500 0    79   ~ 0
-µBMP
+µDAP
 Text Notes 8100 7650 0    67   ~ 0
 2018-11-18
 Text Notes 10550 7650 0    67   ~ 0
@@ -408,9 +408,9 @@ Wire Wire Line
 Wire Wire Line
 	4050 6050 4250 6050
 Text Notes 7050 6850 0    79   ~ 0
-Note that this board is designed to work with the \nSTLink V2 version of Black Magic Probe firmware.
+Note that this board is designed to work with the \ndap42 firmware (https://github.com/devanlai/dap42).
 Text Notes 7050 7050 0    79   ~ 0
-Design available at: github.com/korken89/micro-bmp
+Design available at: github.com/korken89/micro-dap
 $Comp
 L Device:Polyfuse_Small F1
 U 1 1 5ABD7179
