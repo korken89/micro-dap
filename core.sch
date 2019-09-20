@@ -1,4 +1,5 @@
 EESchema Schematic File Version 4
+LIBS:udap-usb-a-cache
 EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
@@ -111,7 +112,7 @@ P 3250 7050
 F 0 "U2" H 3250 7392 50  0000 C CNN
 F 1 "MIC5245-3.3YM5" H 3250 7301 50  0000 C CNN
 F 2 "sot:SOT-23-5" H 3250 7375 50  0001 C CNN
-F 3 "http://ww1.microchip.com/downloads/en/devicedoc/mic5205.pdf" H 3250 7050 50  0001 C CNN
+F 3 "http://ww1.microchip.com/downloads/en/DeviceDoc/mic5245.pdf" H 3250 7050 50  0001 C CNN
 	1    3250 7050
 	1    0    0    -1  
 $EndComp
