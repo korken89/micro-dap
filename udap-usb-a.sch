@@ -1,5 +1,4 @@
 EESchema Schematic File Version 4
-LIBS:udap-usb-a-cache
 EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
@@ -122,13 +121,13 @@ Wire Wire Line
 $Comp
 L power:+5V #PWR0101
 U 1 1 5D5A9B1C
-P 6400 3750
-F 0 "#PWR0101" H 6400 3600 50  0001 C CNN
-F 1 "+5V" V 6415 3878 50  0000 L CNN
-F 2 "" H 6400 3750 50  0001 C CNN
-F 3 "" H 6400 3750 50  0001 C CNN
-	1    6400 3750
-	0    -1   -1   0   
+P 6300 3450
+F 0 "#PWR0101" H 6300 3300 50  0001 C CNN
+F 1 "+5V" V 6315 3578 50  0000 L CNN
+F 2 "" H 6300 3450 50  0001 C CNN
+F 3 "" H 6300 3450 50  0001 C CNN
+	1    6300 3450
+	1    0    0    -1  
 $EndComp
 $Comp
 L power:GND #PWR0104
@@ -152,4 +151,20 @@ F 3 "" H 6800 4250 50  0001 C CNN
 	1    6800 4250
 	1    0    0    -1  
 $EndComp
+$Comp
+L Device:Ferrite_Bead_Small FB101
+U 1 1 5D8CEC4D
+P 6300 3550
+F 0 "FB101" H 6400 3550 50  0000 L CNN
+F 1 "Ferrite_Bead_Small" H 6400 3505 50  0001 L CNN
+F 2 "passive:R_0402" V 6230 3550 50  0001 C CNN
+F 3 "https://www.murata.com/en-us/products/productdata/8796740059166/ENFA0018.pdf" H 6300 3550 50  0001 C CNN
+F 4 "BLM15AX601SN1D" H 6300 3550 50  0001 C CNN "MPN"
+	1    6300 3550
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6400 3750 6300 3750
+Wire Wire Line
+	6300 3750 6300 3650
 $EndSCHEMATC

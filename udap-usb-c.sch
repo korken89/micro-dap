@@ -146,7 +146,7 @@ F 3 "" H 7000 4850 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 Wire Wire Line
-	7600 5050 6400 5050
+	7600 5050 6700 5050
 Wire Wire Line
 	6400 5050 6400 4150
 Wire Wire Line
@@ -173,4 +173,18 @@ Wire Wire Line
 	5450 3850 7100 3850
 Wire Wire Line
 	5450 3750 6650 3750
+$Comp
+L Device:Ferrite_Bead_Small FB101
+U 1 1 5D8D1728
+P 6600 5050
+F 0 "FB101" V 6745 5050 50  0000 C CNN
+F 1 "Ferrite_Bead_Small" V 6746 5050 50  0001 C CNN
+F 2 "passive:R_0402" V 6530 5050 50  0001 C CNN
+F 3 "https://www.murata.com/en-us/products/productdata/8796740059166/ENFA0018.pdf" H 6600 5050 50  0001 C CNN
+F 4 "BLM15AX601SN1D" H 6600 5050 50  0001 C CNN "MPN"
+	1    6600 5050
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	6500 5050 6400 5050
 $EndSCHEMATC
